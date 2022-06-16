@@ -1,6 +1,8 @@
 # Zendesk away mode automation
 ![result](/public/result.png)
-Moves open tickets to a different queue if the team member is on PTO
+- Moves open tickets to a different queue if the team member is on PTO
+- Runs on AWS Labmbda using a cron expression-
+cron(0 6,13 ? * SUN-FRI *)
 
 ## Steps:
 1. Check Google Calendar for events
@@ -14,4 +16,7 @@ Moves open tickets to a different queue if the team member is on PTO
 ## Notes
 - Follow [Google calendar's quick start instructions](https://developers.google.com/calendar/api/quickstart/python) to gain access to your calendar.
 - You will need to use your token.json file from Google
+
 ![files](/public//files.png)
+
+- Run setup.sh to create deployable zip for AWS Lambda
