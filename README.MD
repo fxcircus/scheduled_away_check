@@ -3,6 +3,7 @@ This code uses Google Calendar API and Zendesk's API.
 
 ## Steps:
 1. Check Google Calendar for events
+
 ![calendar](/public/calendar.png)
 
 2. Get tickets with open status from Zendesk
@@ -14,4 +15,5 @@ This code uses Google Calendar API and Zendesk's API.
 ## notes
 Follow [Google calendar's quick start instructions](https://developers.google.com/calendar/api/quickstart/python) to gain access to your calendar.
 You will need to use your token.json file from Google
+
 ![files](/public//files.png)
